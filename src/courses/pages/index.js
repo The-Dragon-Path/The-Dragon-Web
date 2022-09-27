@@ -1,2 +1,2 @@
-export * from './CoursesPage';
-export * from './DetailPage';
+export * from "./CoursesPage";
+export * from "./DetailPage";
