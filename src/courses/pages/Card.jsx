@@ -1,6 +1,9 @@
-export function Card({ header, icon, button, title, description }) {
+export function Card({ header, title, description }) {
   return (
-    <div className="col-3 card border-info" style={{ minHeight: "13rem" }}>
+    <div
+      className="col-12 col-md-6 col-xl-3 card border-info"
+      style={{ minHeight: "13rem", maxWidth: "20rem" }}
+    >
       <div className="card-header d-flex justify-content-between">
         <span className="small">{header}</span>
       </div>
