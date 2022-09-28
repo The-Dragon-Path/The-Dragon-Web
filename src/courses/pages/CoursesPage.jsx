@@ -11,7 +11,7 @@ export const CoursesPage = () => {
         <h5 className="mb-0">Cursos</h5>
         {/*==================
          Button Sign-out 
-         ====================*/}
+         ===================*/}
         <a href="#">
           <i className="fas fa-sign-out h5" style={{ marginBottom: 0 }}></i>
         </a>
