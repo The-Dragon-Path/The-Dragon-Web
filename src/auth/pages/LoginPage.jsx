@@ -3,7 +3,7 @@ export const LoginPage = () => {
     <div className="container d-flex justify-content-center">
         <div className="mt-5 rounded p-2 bg-light login">
             <div className="w-100 d-flex justify-content-center">
-                <img className="w-75 my-3" src="https://el-camino-del-dragon.herokuapp.com/assets/dragonpathlogo-e53a37be2d37220905f41b0266ce3b8fbe635394ef7a21c77c7db9a840ff1067.png" alt="The Dragon Path Logo"></img>
+                <img className="w-75 my-3" src="https://raw.githubusercontent.com/JakeTeach/The-drago-path-logo/main/dragonpathlogo.png" alt="The Dragon Path Logo"></img>
             </div>
             <form action="" className="d-flex flex-column justify-content-center">
               <input type="email" autocomplete="email" placeholder="tu.email@ejemplo.me" className="form-control rounded border lh-lg mb-2"/>
