@@ -6,8 +6,8 @@ export const LoginPage = () => {
                 <img className="w-75 my-3" src="https://raw.githubusercontent.com/JakeTeach/The-drago-path-logo/main/dragonpathlogo.png" alt="The Dragon Path Logo"></img>
             </div>
             <form action="" className="d-flex flex-column justify-content-center">
-              <input type="email" autocomplete="email" placeholder="tu.email@ejemplo.me" className="form-control rounded border lh-lg mb-2"/>
-              <input type="password" autocomplete="current-password" placeholder="Contraseña" className="form-control rounded border lh-lg mb-2"/>
+              <input type="email" autocomplete="email" placeholder="tu.email@ejemplo.me" className="form-control rounded border bg-light lh-lg mb-2"/>
+              <input type="password" autocomplete="current-password" placeholder="Contraseña" className="form-control bg-light rounded border lh-lg mb-2"/>
             </form>       
             <div className="flex-row form-check form-switch">
                 <input name="user[remember_me]" type="hidden" value="0" autocomplete="off"></input>
@@ -15,7 +15,7 @@ export const LoginPage = () => {
                 <label className="form-check-label text-muted" for="user_Recordar">Recordar</label>
             </div>
             <div className="d-flex justify-content-center my-3">
-                <input className="btn btn-outline-info lh-sm" type="submit" value="INICIAR"></input>
+                <input className="btn btn-info lh-sm" type="submit" value="INICIAR"></input>
             </div>
             <small className="w-100 d-flex justify-content-center form-text">
                 <a className="text-decoration-none text-dark " href="#">¿No tienes una cuenta?</a>
