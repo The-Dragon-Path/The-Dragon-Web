@@ -1,7 +1,7 @@
 export function Card({ header, title, description }) {
   return (
     <div
-      className="col-12 col-md-6 col-xl-3 card border-info"
+      className="col-12 col-md-6 col-xl-3 card border-info rounded-lg"
       style={{ minHeight: "13rem", maxWidth: "20rem" }}
     >
       <div className="card-header d-flex justify-content-between">
