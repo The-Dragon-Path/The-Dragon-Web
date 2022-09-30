@@ -53,7 +53,6 @@ const cards = [
     description: "Aprende TAILDWIND desde cero, con este curso completo",
   },
 ];
-
 export const CoursesPage = () => {
   return (
     <div className="container mx-auto">
@@ -66,7 +65,7 @@ export const CoursesPage = () => {
         </a>
       </nav>
       {/* Cards<===================== */}
-      <div className="row justify-content-center gap" style={{ gap: "1.5rem" }}>
+      <div className="row justify-content-center" style={{ gap: "1.5rem" }}>
         {cards.map((card, index) => (
           <Card
             key={index}
@@ -76,6 +75,39 @@ export const CoursesPage = () => {
           />
         ))}
       </div>
+      {/* Footer<==================== */}
+      <div className="d-flex justify-content-center border-top border-info mt-5 mb-3 pt-5">
+        <ul className="nav border-bottom border-light pb-3">
+          <li className="nav-item">
+            <a href="#" className="nav-link text-info">
+              Home
+            </a>
+          </li>
+          <li className="nav-item">
+            <a href="#" className="nav-link text-info">
+              Features
+            </a>
+          </li>
+          <li className="nav-item">
+            <a href="#" className="nav-link text-info">
+              Pricing
+            </a>
+          </li>
+          <li className="nav-item">
+            <a href="#" className="nav-link text-info">
+              FAQs
+            </a>
+          </li>
+          <li className="nav-item">
+            <a href="#" className="nav-link text-info">
+              About
+            </a>
+          </li>
+        </ul>
+      </div>
+      <span className="d-flex justify-content-center text-info  mb-5">
+        © 2021 Bootcamp Dragon Path, Inc
+      </span>
     </div>
   );
 };
